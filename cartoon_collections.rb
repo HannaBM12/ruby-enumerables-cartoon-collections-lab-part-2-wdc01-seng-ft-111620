@@ -31,7 +31,7 @@ def find_valid_calls(planeteer_calls)
     if str == "Earth!" || str == "Wind!" || str == "Fire!" || str =="Water!" || str == "Heart!"
       str
     else
-      nil
+      false
     end
   end
 end
