@@ -19,6 +19,8 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   if planeteer_calls.count > 4
     true
+  else
+    false
   end
 
 end
